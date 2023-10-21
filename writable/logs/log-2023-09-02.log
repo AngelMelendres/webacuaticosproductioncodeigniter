@@ -1,0 +1,16 @@
+CRITICAL - 2023-09-02 14:47:23 --> FPDF error: Unsupported image type: com/images?q=tbn:and9gct_6wvtlopxinz540gl6dfmtlg7hqtjg4iqgq&usqp=cau
+in APPPATH\Libraries\fpdf186\fpdf.php on line 267.
+ 1 APPPATH\Libraries\fpdf186\fpdf.php(889): FPDF->Error('Unsupported image type: com/images?q=tbn:and9gct_6wvtlopxinz540gl6dfmtlg7hqtjg4iqgq&usqp=cau')
+ 2 APPPATH\Controllers\Admin.php(657): FPDF->Image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6wvTLOpXiNZ540gl6dfmtlG7hQTJg4iQgQ&usqp=CAU', 170.00125, 152.00125, 30, 15)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->cotizacion()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-02 14:58:05 --> FPDF error: Unsupported image type: com/images?q=tbn:and9gct_6wvtlopxinz540gl6dfmtlg7hqtjg4iqgq&usqp=cau
+in APPPATH\Libraries\fpdf186\fpdf.php on line 267.
+ 1 APPPATH\Libraries\fpdf186\fpdf.php(889): FPDF->Error('Unsupported image type: com/images?q=tbn:and9gct_6wvtlopxinz540gl6dfmtlg7hqtjg4iqgq&usqp=cau')
+ 2 APPPATH\Controllers\Admin.php(657): FPDF->Image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6wvTLOpXiNZ540gl6dfmtlG7hQTJg4iQgQ&usqp=CAU', 170.00125, 167.00125, 30, 15)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->cotizacion()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

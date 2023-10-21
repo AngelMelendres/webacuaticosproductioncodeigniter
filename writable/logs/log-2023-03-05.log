@@ -1,0 +1,27 @@
+ERROR - 2023-03-05 00:12:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`acuaticos`.`detalle_venta`, CONSTRAINT `fk_factura_has_producto_producto1` FOREIGN KEY (`codigo_producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', NULL, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Database\Seeds\DetalleVentaSeeder.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\acuaticostoscanini\system\Database\Seeder.php(146): App\Database\Seeds\DetalleVentaSeeder->run()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\acuaticostoscanini\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-05 01:06:37 --> mysqli_sql_exception: Duplicate entry 'FAC-0394941231-PROD-00115' for key 'PRIMARY' in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Database\Seeds\DetalleVentaSeeder.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\acuaticostoscanini\system\Database\Seeder.php(146): App\Database\Seeds\DetalleVentaSeeder->run()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\acuaticostoscanini\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}

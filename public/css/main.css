@@ -1,0 +1,47 @@
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+}
+
+aside.sidebar {
+    min-width: 240px;
+    max-width: 240px;
+    background-color: #1b1b1b;
+    color: #f8f9fa;
+}
+
+#contenidoAdmin {
+    flex: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.caja {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.caja:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.caja-titulo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.caja-numero {
+    font-size: 48px;
+}
+
+

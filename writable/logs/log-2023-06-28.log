@@ -1,0 +1,945 @@
+ERROR - 2023-06-28 02:18:30 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 02:18:30 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 03:30:30 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 03:30:30 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:15:45 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:15:45 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:17:33 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:17:33 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:20:49 --> mysqli_sql_exception: Unknown column 'categorias' in 'field list' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:20:49 --> Unknown column 'categorias' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:, `especificaciones` = :especificaciones:, `categorias` = :categorias:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:20:52 --> mysqli_sql_exception: Unknown column 'categorias' in 'field list' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:20:52 --> Unknown column 'categorias' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:, `especificaciones` = :especificaciones:, `categorias` = :categorias:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:23:26 --> mysqli_sql_exception: Unknown column 'categorias' in 'field list' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:23:26 --> Unknown column 'categorias' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:, `especificaciones` = :especificaciones:, `categorias` = :categorias:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:23:32 --> mysqli_sql_exception: Unknown column 'categorias' in 'field list' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:23:32 --> Unknown column 'categorias' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:, `especificaciones` = :especificaciones:, `categorias` = :categorias:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:29:17 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(199): App\Models\ProductoModel->getProductByCode('AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(199): App\Models\ProductoModel->getProductByCode('AAPROD-585622')
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-28 14:29:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`codigo` = :producto.codigo:', [...], false)
+ 3 APPPATH\Models\ProductoModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(199): App\Models\ProductoModel->getProductByCode('AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('AAPROD-585622')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:29:24 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:29:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:29:35 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:29:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:29:52 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:29:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:30:03 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:30:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:30:11 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:30:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:30:43 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:30:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:30:49 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->productos()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:30:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductoModel.php(28): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Admin.php(59): App\Models\ProductoModel->getAllProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:40:12 --> mysqli_sql_exception: Unknown column 'categorias' in 'field list' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:40:12 --> Unknown column 'categorias' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:, `especificaciones` = :especificaciones:, `categorias` = :categorias:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:40:19 --> mysqli_sql_exception: Unknown column 'categorias' in 'field list' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:40:19 --> Unknown column 'categorias' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:, `especificaciones` = :especificaciones:, `categorias` = :categorias:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(151): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:42:46 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(160): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-28 14:42:46 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(160): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:46:11 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:46:11 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'NRA68\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 14:53:58 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(138): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 14:54:00 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(198): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 14:54:01 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(198): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 14:54:02 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(58): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 14:54:03 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(58): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->productos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:55:25 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:55:25 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'NRA68\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:55:34 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:55:34 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'NRA68\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:56:10 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:56:10 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'NRA68\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:56:26 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:56:26 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'NRA68\'), (\'AAPROD-585622\',\'SYI74\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:57:02 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:57:02 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'SYI74\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:57:06 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:57:06 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_subcategoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'SYI74\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(169): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 14:59:55 --> mysqli_sql_exception: Duplicate entry 'AAPROD-585622-SYI74' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 14:59:55 --> Duplicate entry 'AAPROD-585622-SYI74' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_categoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'SYI74\'), (\'AAPROD-585622\',\'KYN72\'), (\'AAPROD-585622\',\'SYI74\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 15:00:08 --> mysqli_sql_exception: Duplicate entry 'AAPROD-585622-SYI74' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 15:00:08 --> Duplicate entry 'AAPROD-585622-SYI74' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_categoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'SYI74\'), (\'AAPROD-585622\',\'KYN72\'), (\'AAPROD-585622\',\'SYI74\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 15:19:01 --> mysqli_sql_exception: Duplicate entry 'AAPROD-585622-KYN72' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(178): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 15:19:01 --> Duplicate entry 'AAPROD-585622-KYN72' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_categoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'KYN72\'), (\'AAPROD-585622\',\'QYJ07\'), (\'AAPROD-585622\',\'PYB23\'), (\'AAPROD-585622\',\'KYN72\'), (\'AAPROD-585622\',\'QYJ07\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(178): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 15:26:02 --> mysqli_sql_exception: Duplicate entry 'AAPROD-585622-NRA68' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(178): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 15:26:02 --> Duplicate entry 'AAPROD-585622-NRA68' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_categoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'OHG48\'), (\'AAPROD-585622\',\'NRA68\'), (\'AAPROD-585622\',\'SYI74\'), (\'AAPROD-585622\',\'NRA68\'), (\'AAPROD-585622\',\'SYI74\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(178): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 15:55:05 --> mysqli_sql_exception: Duplicate entry 'AAPROD-585622-NRA68' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(178): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-28 15:55:05 --> Duplicate entry 'AAPROD-585622-NRA68' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_categoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (\'AAPROD-585622\',\'OHG48\'), (\'AAPROD-585622\',\'NRA68\'), (\'AAPROD-585622\',\'ZIC20\'), (\'AAPROD-585622\',\'NRA68\'), (\'AAPROD-585622\',\'OHG48\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(168): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(178): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

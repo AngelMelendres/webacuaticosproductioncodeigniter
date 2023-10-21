@@ -1,0 +1,149 @@
+CRITICAL - 2023-07-14 00:21:33 --> Undefined variable $subcategorias
+in APPPATH\Views\admin\inventario\subCategorias.php on line 187.
+ 1 APPPATH\Views\admin\inventario\subCategorias.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcategorias', 'APPPATH\\Views\\admin\\inventario\\subCategorias.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\subCategorias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/subCategorias', [], true)
+ 5 APPPATH\Controllers\Admin.php(161): view('admin/inventario/subCategorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:21:49 --> Undefined variable $subcategorias
+in APPPATH\Views\admin\inventario\subCategorias.php on line 187.
+ 1 APPPATH\Views\admin\inventario\subCategorias.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcategorias', 'APPPATH\\Views\\admin\\inventario\\subCategorias.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\subCategorias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/subCategorias', [], true)
+ 5 APPPATH\Controllers\Admin.php(161): view('admin/inventario/subCategorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:22:10 --> Undefined variable $subcategorias
+in APPPATH\Views\admin\inventario\subCategorias.php on line 187.
+ 1 APPPATH\Views\admin\inventario\subCategorias.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcategorias', 'APPPATH\\Views\\admin\\inventario\\subCategorias.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\subCategorias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/subCategorias', [], true)
+ 5 APPPATH\Controllers\Admin.php(161): view('admin/inventario/subCategorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 00:24:00 --> Undefined variable $categorias
+in APPPATH\Controllers\Admin.php on line 160.
+ 1 APPPATH\Controllers\Admin.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Controllers\\Admin.php', 160)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 00:34:26 --> mysqli_sql_exception: Unknown column 'subcategoria.codigoSubcategoria' in 'field list' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subcate...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subcate...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subcate...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subcate...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(156): App\Models\CategoriaModel->getAllSubcategoriasConCategoria()
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-14 00:34:26 --> Unknown column 'subcategoria.codigoSubcategoria' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subcategoria`.`codigoSubcategoria`, `subcategoria`.`nombre` AS `subcategoria`, COALESCE(categoria.nombre, "ninguna") AS categoria
+FROM `subcategoria`
+LEFT JOIN `subcategoria_categoria` ON `subcategoria_codigo` = `subcategoria`.`codigo`
+LEFT JOIN `categoria` ON `categoria_codigo` = `categoria`.`codigo`', [], false)
+ 2 APPPATH\Models\CategoriaModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(156): App\Models\CategoriaModel->getAllSubcategoriasConCategoria()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 00:34:46 --> mysqli_sql_exception: Unknown column 'subcategoria.codigoSubcategoria' in 'field list' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subcate...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subcate...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subcate...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subcate...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(156): App\Models\CategoriaModel->getAllSubcategoriasConCategoria()
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-14 00:34:46 --> Unknown column 'subcategoria.codigoSubcategoria' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subcategoria`.`codigoSubcategoria`, `subcategoria`.`nombre` AS `subcategoria`, COALESCE(categoria.nombre, "ninguna") AS categoria
+FROM `subcategoria`
+LEFT JOIN `subcategoria_categoria` ON `subcategoria_codigo` = `subcategoria`.`codigo`
+LEFT JOIN `categoria` ON `categoria_codigo` = `categoria`.`codigo`', [], false)
+ 2 APPPATH\Models\CategoriaModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(156): App\Models\CategoriaModel->getAllSubcategoriasConCategoria()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 03:35:59 --> Undefined array key "subcategoria"
+in APPPATH\Controllers\Admin.php on line 162.
+ 1 APPPATH\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subcategoria"', 'APPPATH\\Controllers\\Admin.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 03:36:23 --> Undefined array key "subcategoria"
+in APPPATH\Controllers\Admin.php on line 162.
+ 1 APPPATH\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subcategoria"', 'APPPATH\\Controllers\\Admin.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 03:37:29 --> Undefined array key "subcategoria"
+in APPPATH\Controllers\Admin.php on line 162.
+ 1 APPPATH\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subcategoria"', 'APPPATH\\Controllers\\Admin.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 03:37:54 --> Undefined array key "subcategoria"
+in APPPATH\Controllers\Admin.php on line 162.
+ 1 APPPATH\Controllers\Admin.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subcategoria"', 'APPPATH\\Controllers\\Admin.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 17:42:17 --> unlink(C:\xamp\htdocs\acuaticostoscanini\public/images/inventario/Screenshot 2023-04-30 192754.png): No such file or directory
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xamp\\htdocs\\acuaticostoscanini\\public/images/inventario/Screenshot 2023-04-30 192754.png): No such file or directory', 'APPPATH\\Controllers\\Admin.php', 333)
+ 2 APPPATH\Controllers\Admin.php(333): unlink('FCPATH\\public/images/inventario/Screenshot 2023-04-30 192754.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 17:55:59 --> mysqli_sql_exception: Unknown column 'categoria.codigo' in 'field list' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `categor...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(133): App\Models\CategoriaModel->getAllSubcategories()
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->categorias()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-14 17:55:59 --> Unknown column 'categoria.codigo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categoria`.`codigo`, `categoria`.`nombre`
+FROM `subcategoria`', [], false)
+ 2 APPPATH\Models\CategoriaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(133): App\Models\CategoriaModel->getAllSubcategories()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->categorias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

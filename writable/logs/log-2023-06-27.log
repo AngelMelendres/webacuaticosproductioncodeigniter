@@ -1,0 +1,960 @@
+CRITICAL - 2023-06-27 14:19:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-06230')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:19:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-06842')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:19:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-09973')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:19:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-09942')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:19:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-13396')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:19:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-13024')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-09942')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-07483')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-06230')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-06842')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-09367')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-10127')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-13024')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-10698')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-08701')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:20:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-05798')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 14:25:04 --> syntax error, unexpected token "*", expecting end of file
+in APPPATH\Config\Routes.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:08 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:10 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:11 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:12 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:14 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:17 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:27:31 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:28:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(116): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:44:23 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(116): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 15:44:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(116): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:30:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(113): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:30:49 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(113): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:32:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(113): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:32:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(113): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:33:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Admin.php(113): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:44:52 --> Call to a member function getVar() on null
+in APPPATH\Models\ProductoModel.php on line 117.
+ 1 APPPATH\Controllers\Admin.php(113): App\Models\ProductoModel->updateParcial([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:45:03 --> Call to a member function getVar() on null
+in APPPATH\Models\ProductoModel.php on line 117.
+ 1 APPPATH\Controllers\Admin.php(113): App\Models\ProductoModel->updateParcial([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 16:53:25 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 96
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(96): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:00:55 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:00:55 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:01:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:01:07 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:03:29 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:03:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:03:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:03:41 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:03:59 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:03:59 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:04:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:04:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:09:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:09:12 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:09:23 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:09:23 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:12:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:12:22 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:12:43 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:12:43 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:13:57 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:13:57 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:14:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06842')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:14:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06842')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:15:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06842')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:15:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06842')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 17:15:42 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 17:15:42 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 20:02:18 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06230')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 20:02:18 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06230')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 20:21:48 --> mysqli_sql_exception: Duplicate entry 'PROD-06842' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial(Array, 'PROD-06233')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 20:21:48 --> Duplicate entry 'PROD-06842' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `codigo` = :codigo.1:, `nombre` = :nombre:, `cantidad` = :cantidad:, `precio` = :precio:, `costo` = :costo:, `descripcion` = :descripcion:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(127): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(115): App\Models\ProductoModel->updateParcial([...], 'PROD-06233')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoParcial()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 20:39:31 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 139
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(139): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('PROD-06233')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 20:39:33 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 139
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(139): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('PROD-06233')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 20:39:34 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 139
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(139): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('PROD-06233')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 20:39:35 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 139
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(139): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('PROD-06233')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 20:39:41 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 139
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(139): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->editarProductoCompleto('PROD-06233')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 21:04:29 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 137
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(137): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 21:06:11 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 137
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(137): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 21:06:16 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 137
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(137): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 21:11:13 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 137
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(137): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 21:12:18 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 137
+in APPPATH\Models\ProductoModel.php on line 48.
+ 1 APPPATH\Controllers\Admin.php(137): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:10:18 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 175.
+ 1 APPPATH\Controllers\Admin.php(175): printf([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:11:23 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 175.
+ 1 APPPATH\Controllers\Admin.php(175): printf([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:13:13 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Admin.php on line 180.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:14:11 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 142.
+ 1 APPPATH\Controllers\Admin.php(142): printf([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:19:36 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 140.
+ 1 APPPATH\Controllers\Admin.php(140): printf([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:21:47 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 140.
+ 1 APPPATH\Controllers\Admin.php(140): printf([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:25:47 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 139.
+ 1 APPPATH\Controllers\Admin.php(139): printf([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:47:27 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 152.
+ 1 APPPATH\Controllers\Admin.php(152): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:47:29 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 152.
+ 1 APPPATH\Controllers\Admin.php(152): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:47:34 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 152.
+ 1 APPPATH\Controllers\Admin.php(152): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 22:47:40 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Admin.php on line 152.
+ 1 APPPATH\Controllers\Admin.php(152): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:26:38 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:26:38 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:26:45 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:26:45 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:27:25 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:27:25 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:28:33 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:28:33 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:29:10 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:29:10 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:29:14 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:29:14 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 23:30:55 --> mysqli_sql_exception: Table 'acuaticos.producto_subcategoria' doesn't exist in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto(Array, 'AAPROD-585622')
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-27 23:30:55 --> Table 'acuaticos.producto_subcategoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto_subcategoria`
+WHERE `producto_codigo` = :producto_codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(158): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(179): App\Models\ProductoModel->updateCompleto([...], 'AAPROD-585622')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

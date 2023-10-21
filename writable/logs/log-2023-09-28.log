@@ -1,0 +1,265 @@
+CRITICAL - 2023-09-28 21:07:54 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:09:43 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:09:46 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:10:44 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:10:52 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:10:58 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:11:10 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:12:13 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:13:53 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:15:26 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:15:42 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:19:24 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:28:55 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:29:26 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:30:13 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:30:16 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:30:22 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:31:36 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:31:40 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:32:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:32:26 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:33:09 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-28 21:36:03 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-09-28 19:36:54 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:36:54 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 19:37:33 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:37:33 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 19:37:37 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:37:37 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 19:38:23 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:38:23 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 19:38:56 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:38:56 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 19:41:00 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:41:00 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 19:41:51 --> mysqli_sql_exception: Table 'acuaticos.ajustesproductos' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-28 19:41:51 --> Table 'acuaticos.ajustesproductos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ajustesProductos`
+WHERE `ajustesProductos`.`id` = :ajustesProductos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH\Models\ajustesProductosModel.php(19): CodeIgniter\BaseModel->find(1)
+ 5 APPPATH\Controllers\Ecomerce.php(38): App\Models\ajustesProductosModel->getEstado()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,501 @@
+CRITICAL - 2023-04-05 12:48:16 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:48:24 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:49:17 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:49:22 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:50:14 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:55:50 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:55:58 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-05 12:56:28 --> Call to undefined method App\Models\ProductoModel::deleteProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(81): CodeIgniter\Model->__call('deleteProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 12:56:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(85): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 12:56:54 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 12:57:04 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(85): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 12:57:04 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:27:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 14:27:12 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(86): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:29:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 14:29:24 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:30:14 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 14:30:14 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `producto`.`codigo` = :producto.codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:30:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 14:30:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `producto`.`codigo` = :producto.codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:30:47 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 14:30:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `producto`.`codigo` = :producto.codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:31:53 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-05 14:31:53 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `producto`.`codigo` = :producto.codigo:', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(88): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:33:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-05 14:33:07 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` IN :codigo:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Models\ProductoModel.php(86): CodeIgniter\BaseModel->delete([...])
+ 5 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:33:17 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-05 14:33:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` IN :codigo:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Models\ProductoModel.php(86): CodeIgniter\BaseModel->delete([...])
+ 5 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:33:23 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01605')
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-05 14:33:23 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `producto`
+WHERE `codigo` IN :codigo:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Models\ProductoModel.php(86): CodeIgniter\BaseModel->delete([...])
+ 5 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01605')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:51:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01605')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:51:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=\'PROD-01605\'')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01605')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:51:25 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:51:25 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=\'PROD-01147\'')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:51:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:51:41 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=\'PROD-01147\'')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:52:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:52:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=\'PROD-01147\'')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:52:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:52:21 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(86): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=\'PROD-01147\'')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:54:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:54:11 --> Cannot delete or update a parent row: a foreign key constraint fails (`acuaticos`.`imagen`, CONSTRAINT `fk_imagen_producto1` FOREIGN KEY (`producto`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=\'PROD-01147\'')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:54:36 --> mysqli_sql_exception: Unknown column 'PROD' in 'where clause' in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:54:36 --> Unknown column 'PROD' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=PROD-01147')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:54:43 --> mysqli_sql_exception: Unknown column 'PROD' in 'where clause' in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:54:44 --> Unknown column 'PROD' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=PROD-01147')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-05 14:55:15 --> mysqli_sql_exception: Unknown column 'PROD' in 'where clause' in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+#5 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+#6 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 14:55:15 --> Unknown column 'PROD' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Database\BaseConnection->query('delete from producto where codigo=PROD-01147')
+ 2 APPPATH\Controllers\Admin.php(81): App\Models\ProductoModel->deleteProducto('PROD-01147')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->eliminarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

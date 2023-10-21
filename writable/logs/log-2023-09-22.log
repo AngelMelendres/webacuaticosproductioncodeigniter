@@ -1,0 +1,11 @@
+CRITICAL - 2023-09-22 14:14:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\ecomerce\producto.php on line 4.
+ 1 APPPATH\Views\ecomerce\producto.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\ecomerce\\producto.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/producto', [], true)
+ 5 APPPATH\Controllers\Ecomerce.php(118): view('ecomerce/producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('10k')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

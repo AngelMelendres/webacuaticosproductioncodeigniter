@@ -1,0 +1,22 @@
+CRITICAL - 2023-07-13 16:57:39 --> Undefined variable $categorias
+in APPPATH\Views\admin\inventario\categorias.php on line 143.
+ 1 APPPATH\Views\admin\inventario\categorias.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\admin\\inventario\\categorias.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\categorias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/categorias', [], true)
+ 5 APPPATH\Controllers\Admin.php(129): view('admin/inventario/categorias')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->categorias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 20:03:31 --> Undefined variable $categorias
+in APPPATH\Views\admin\inventario\subCategorias.php on line 187.
+ 1 APPPATH\Views\admin\inventario\subCategorias.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\admin\\inventario\\subCategorias.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\subCategorias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/subCategorias', [], true)
+ 5 APPPATH\Controllers\Admin.php(155): view('admin/inventario/subCategorias')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->subcategorias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

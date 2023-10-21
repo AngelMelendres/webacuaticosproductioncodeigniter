@@ -1,0 +1,536 @@
+CRITICAL - 2023-07-11 15:13:23 --> unlink(C:\xamppp\htdocs\acuaticostoscanini\public/images/inventario/480): No such file or directory
+in APPPATH\Controllers\Admin.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xamppp\\htdocs\\acuaticostoscanini\\public/images/inventario/480): No such file or directory', 'APPPATH\\Controllers\\Admin.php', 206)
+ 2 APPPATH\Controllers\Admin.php(206): unlink('FCPATH\\public/images/inventario/480')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:22:27 --> unlink(C:\xamppp\htdocs\acuaticostoscanini\public/images/inventario/1688882923_d676033b743ae22d10cf): No such file or directory
+in APPPATH\Controllers\Admin.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xamppp\\htdocs\\acuaticostoscanini\\public/images/inventario/1688882923_d676033b743ae22d10cf): No such file or directory', 'APPPATH\\Controllers\\Admin.php', 206)
+ 2 APPPATH\Controllers\Admin.php(206): unlink('FCPATH\\public/images/inventario/1688882923_d676033b743ae22d10cf')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:46:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-06842')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:47:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('AAPROD-5856212')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:47:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('PROD-07483')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:49:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:50:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:52:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:52:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:57:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:57:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:59:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:00:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Ecomerce.php on line 81.
+ 1 APPPATH\Controllers\Ecomerce.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Ecomerce.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:41:01 --> Undefined variable $recomedados
+in APPPATH\Views\ecomerce\templates\recomendados.php on line 26.
+ 1 APPPATH\Views\ecomerce\templates\recomendados.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recomedados', 'APPPATH\\Views\\ecomerce\\templates\\recomendados.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\templates\\recomendados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('ecomerce/templates/recomendados', null, true)
+ 5 APPPATH\Views\ecomerce\producto.php(116): CodeIgniter\View\View->include('ecomerce/templates/recomendados')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\producto.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/producto', [], true)
+ 9 APPPATH\Controllers\Ecomerce.php(118): view('ecomerce/producto', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:41:06 --> Undefined variable $recomedados
+in APPPATH\Views\ecomerce\templates\recomendados.php on line 26.
+ 1 APPPATH\Views\ecomerce\templates\recomendados.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recomedados', 'APPPATH\\Views\\ecomerce\\templates\\recomendados.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\templates\\recomendados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('ecomerce/templates/recomendados', null, true)
+ 5 APPPATH\Views\ecomerce\producto.php(116): CodeIgniter\View\View->include('ecomerce/templates/recomendados')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\producto.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/producto', [], true)
+ 9 APPPATH\Controllers\Ecomerce.php(118): view('ecomerce/producto', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->mostrarProducto('1')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:36:38 --> Undefined variable $producto
+in APPPATH\Views\admin\inventario\agregarProducto.php on line 143.
+ 1 APPPATH\Views\admin\inventario\agregarProducto.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'APPPATH\\Views\\admin\\inventario\\agregarProducto.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/agregarProducto', [], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('admin/inventario/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:37:13 --> Undefined variable $producto
+in APPPATH\Views\admin\inventario\agregarProducto.php on line 143.
+ 1 APPPATH\Views\admin\inventario\agregarProducto.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'APPPATH\\Views\\admin\\inventario\\agregarProducto.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/agregarProducto', [], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('admin/inventario/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:48:37 --> Undefined variable $allSubCategorias
+in APPPATH\Views\admin\inventario\agregarProducto.php on line 150.
+ 1 APPPATH\Views\admin\inventario\agregarProducto.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allSubCategorias', 'APPPATH\\Views\\admin\\inventario\\agregarProducto.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/agregarProducto', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/inventario/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:49:03 --> Undefined variable $subcategorias
+in APPPATH\Views\admin\inventario\agregarProducto.php on line 183.
+ 1 APPPATH\Views\admin\inventario\agregarProducto.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcategorias', 'APPPATH\\Views\\admin\\inventario\\agregarProducto.php', 183)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/agregarProducto', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/inventario/agregarProducto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:52:38 --> Undefined variable $subcategorias
+in APPPATH\Views\admin\inventario\agregarProducto.php on line 182.
+ 1 APPPATH\Views\admin\inventario\agregarProducto.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcategorias', 'APPPATH\\Views\\admin\\inventario\\agregarProducto.php', 182)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/agregarProducto', [], true)
+ 5 APPPATH\Controllers\Admin.php(91): view('admin/inventario/agregarProducto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 18:10:33 --> App\Models\ProductoModel::getProductByCode(): Argument #1 ($codigo) must be of type string, null given, called in C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php on line 211
+in APPPATH\Models\ProductoModel.php on line 73.
+ 1 APPPATH\Controllers\Admin.php(211): App\Models\ProductoModel->getProductByCode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCompleto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 18:24:14 --> Undefined variable $nuevoCodigo
+in APPPATH\Controllers\Admin.php on line 204.
+ 1 APPPATH\Controllers\Admin.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nuevoCodigo', 'APPPATH\\Controllers\\Admin.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 19:11:26 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getClientMediaType()
+in APPPATH\Controllers\Admin.php on line 221.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:09:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`acuaticos`.`producto_categoria`, CONSTRAINT `fk_producto_has_subcategoria_producto1` FOREIGN KEY (`producto_codigo`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE CASCADE) in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(223): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-11 23:09:01 --> Cannot add or update a child row: a foreign key constraint fails (`acuaticos`.`producto_categoria`, CONSTRAINT `fk_producto_has_subcategoria_producto1` FOREIGN KEY (`producto_codigo`) REFERENCES `producto` (`codigo`) ON DELETE NO ACTION ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto_categoria` (`producto_codigo`, `subcategoria_codigo`)
+VALUES (0,\'sub1\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\ProductoModel.php(223): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:09:17 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:09:17 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 23:11:35 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(192): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 23:11:41 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(82): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 23:11:52 --> syntax error, unexpected token "}"
+in APPPATH\Models\ProductoModel.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 APPPATH\Controllers\Admin.php(82): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->agregarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:18:55 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:18:55 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:20:14 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:20:14 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:20:27 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:20:27 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:21:39 --> mysqli_sql_exception: Duplicate entry '5' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:21:39 --> Duplicate entry '5' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:25:49 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:25:49 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:38:41 --> mysqli_sql_exception: Duplicate entry '111' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:38:41 --> Duplicate entry '111' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:41:10 --> mysqli_sql_exception: Duplicate entry '111' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:41:10 --> Duplicate entry '111' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(222): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:41:58 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:41:58 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:43:13 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:43:13 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:44:49 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:44:49 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:45:42 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:45:42 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 23:53:24 --> mysqli_sql_exception: Duplicate entry '4342' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-11 23:53:24 --> Duplicate entry '4342' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

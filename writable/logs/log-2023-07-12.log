@@ -1,0 +1,200 @@
+CRITICAL - 2023-07-12 00:06:35 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\Admin.php on line 220.
+ 1 APPPATH\Controllers\Admin.php(220): print_r('IMAGEN', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 00:45:18 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto(Array)
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-12 00:45:18 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`codigo`, `nombre`, `cantidad`, `precio`, `costo`, `descripcion`, `especificaciones`) VALUES (:codigo:, :nombre:, :cantidad:, :precio:, :costo:, :descripcion:, :especificaciones:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(207): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(223): App\Models\ProductoModel->postProducto([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 01:22:24 --> Undefined array key "imagenes"
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'APPPATH\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 01:23:46 --> Undefined array key "imagenes"
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'APPPATH\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 01:24:29 --> Undefined array key "imagenes"
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'APPPATH\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 01:25:19 --> Undefined array key "imagenes"
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'APPPATH\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 01:26:57 --> Undefined array key "imagenes"
+in APPPATH\Controllers\Admin.php on line 218.
+ 1 APPPATH\Controllers\Admin.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'APPPATH\\Controllers\\Admin.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 01:38:35 --> Undefined array key "archivos"
+in APPPATH\Controllers\Admin.php on line 231.
+ 1 APPPATH\Controllers\Admin.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "archivos"', 'APPPATH\\Controllers\\Admin.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 16:09:43 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+#6 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#9 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamppp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#3 C:\xamppp\htdocs\acuaticostoscanini\app\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+#5 C:\xamppp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+#6 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+#7 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#8 C:\xamppp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-12 16:09:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categoria`.`nombre` AS `categoria`, `categoria`.`codigo` AS `categoria_codigo`, `subcategoria`.`nombre` AS `subcategoria`, `subcategoria`.`codigo` AS `subcategoria_codigo`
+FROM `subcategoria_categoria`
+JOIN `categoria` ON `subcategoria_categoria`.`categoria_codigo` = `categoria`.`codigo`
+JOIN `subcategoria` ON `subcategoria_categoria`.`subcategoria_codigo` = `subcategoria`.`codigo`', [], false)
+ 3 APPPATH\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+ 5 APPPATH\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 23:00:24 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+#6 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#9 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#3 C:\xamp\htdocs\acuaticostoscanini\app\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-12 23:00:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categoria`.`nombre` AS `categoria`, `categoria`.`codigo` AS `categoria_codigo`, `subcategoria`.`nombre` AS `subcategoria`, `subcategoria`.`codigo` AS `subcategoria_codigo`
+FROM `subcategoria_categoria`
+JOIN `categoria` ON `subcategoria_categoria`.`categoria_codigo` = `categoria`.`codigo`
+JOIN `subcategoria` ON `subcategoria_categoria`.`subcategoria_codigo` = `subcategoria`.`codigo`', [], false)
+ 3 APPPATH\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+ 5 APPPATH\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 23:01:04 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'acuaticos', 3307, '', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+#6 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#9 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#3 C:\xamp\htdocs\acuaticostoscanini\app\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-12 23:01:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `categoria`.`nombre` AS `categoria`, `categoria`.`codigo` AS `categoria_codigo`, `subcategoria`.`nombre` AS `subcategoria`, `subcategoria`.`codigo` AS `subcategoria_codigo`
+FROM `subcategoria_categoria`
+JOIN `categoria` ON `subcategoria_categoria`.`categoria_codigo` = `categoria`.`codigo`
+JOIN `subcategoria` ON `subcategoria_categoria`.`subcategoria_codigo` = `subcategoria`.`codigo`', [], false)
+ 3 APPPATH\Models\SubcategoriaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Ecomerce.php(138): App\Models\SubcategoriaModel->getCategorias_subcategorias()
+ 5 APPPATH\Controllers\Ecomerce.php(19): App\Controllers\Ecomerce->obtenerCategoriasSubcategorias()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

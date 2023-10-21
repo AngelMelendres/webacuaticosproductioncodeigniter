@@ -1,0 +1,26 @@
+CRITICAL - 2023-03-27 17:07:36 --> Invalid file: "ecomerce/templates/banerMM.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ecomerce/templates/banerMM.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('ecomerce/templates/banerMM', null, true)
+ 3 APPPATH\Views\ecomerce\cart.php(8): CodeIgniter\View\View->include('ecomerce/templates/banerMM')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\cart.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/cart', [], true)
+ 7 APPPATH\Controllers\Ecomerce.php(97): view('ecomerce/cart')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->compras()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 17:08:57 --> Invalid file: "ecomerce/templates/banerMM.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ecomerce/templates/banerMM.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('ecomerce/templates/banerMM', null, true)
+ 3 APPPATH\Views\ecomerce\cart.php(9): CodeIgniter\View\View->include('ecomerce/templates/banerMM')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\cart.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/cart', [], true)
+ 7 APPPATH\Controllers\Ecomerce.php(97): view('ecomerce/cart')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->compras()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

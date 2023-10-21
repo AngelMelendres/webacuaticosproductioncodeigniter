@@ -1,0 +1,151 @@
+ERROR - 2023-07-29 01:14:58 --> mysqli_sql_exception: Duplicate entry 'Termometro' for key 'PRIMARY' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(309): App\Models\CategoriaModel->postSubCategoria(Array)
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->postSubCategoria()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-29 01:14:58 --> Duplicate entry 'Termometro' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subcategoria` (`codigo`, `nombre`) VALUES (:codigo:, :nombre:)', [...], false)
+ 2 APPPATH\Models\CategoriaModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(309): App\Models\CategoriaModel->postSubCategoria([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->postSubCategoria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-29 01:16:35 --> mysqli_sql_exception: Duplicate entry 'Termometro-Termometro' for key 'uc_subcategoria_categoria' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', NULL, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(265): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(545): App\Models\CategoriaModel->updateSubCategoria(Array, 'termometro')
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateSubCategoria()
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-29 01:16:35 --> Duplicate entry 'Termometro-Termometro' for key 'uc_subcategoria_categoria'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subcategoria_categoria` (`categoria_codigo`, `subcategoria_codigo`)
+VALUES (\'Termometro\',\'Termometros Cocina\')', null, false)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 3 APPPATH\Models\CategoriaModel.php(265): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 4 APPPATH\Controllers\Admin.php(545): App\Models\CategoriaModel->updateSubCategoria([...], 'termometro')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateSubCategoria()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-29 01:19:21 --> mysqli_sql_exception: Duplicate entry 'cat3' for key 'PRIMARY' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `categor...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria(Array, 'cat1')
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-29 01:19:21 --> Duplicate entry 'cat3' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categoria` SET `codigo` = :codigo.1:, `nombre` = :nombre:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria([...], 'cat1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-29 01:20:35 --> mysqli_sql_exception: Duplicate entry 'cat3' for key 'PRIMARY' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `categor...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria(Array, 'cat1')
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-29 01:20:35 --> Duplicate entry 'cat3' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categoria` SET `codigo` = :codigo.1:, `nombre` = :nombre:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria([...], 'cat1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-29 01:21:19 --> mysqli_sql_exception: Duplicate entry 'cat3' for key 'PRIMARY' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `categor...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria(Array, 'cat1')
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-29 01:21:19 --> Duplicate entry 'cat3' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categoria` SET `codigo` = :codigo.1:, `nombre` = :nombre:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria([...], 'cat1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-29 01:29:40 --> mysqli_sql_exception: Duplicate entry 'cat3' for key 'PRIMARY' in C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xamp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `categor...', 0)
+#1 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `categor...')
+#2 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `categor...')
+#3 C:\xamp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categor...', Array, false)
+#4 C:\xamp\htdocs\acuaticostoscanini\app\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xamp\htdocs\acuaticostoscanini\app\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria(Array, 'cat1')
+#6 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+#7 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xamp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-29 01:29:40 --> Duplicate entry 'cat3' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `categoria` SET `codigo` = :codigo.1:, `nombre` = :nombre:
+WHERE `codigo` = :codigo:', [...], false)
+ 2 APPPATH\Models\CategoriaModel.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(517): App\Models\CategoriaModel->updateCategoria([...], 'cat1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-29 01:46:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Admin.php on line 515.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-29 01:47:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Admin.php on line 515.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->updateCategoria()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

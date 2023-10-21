@@ -1,0 +1,77 @@
+CRITICAL - 2023-09-25 00:17:55 --> Array to string conversion
+in APPPATH\Views\admin\inventario\ajustes.php on line 43.
+ 1 APPPATH\Views\admin\inventario\ajustes.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\inventario\\ajustes.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\ajustes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/ajustes', [], true)
+ 5 APPPATH\Controllers\Admin.php(58): view('admin/inventario/ajustes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->ajustesProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 00:18:20 --> Array to string conversion
+in APPPATH\Views\admin\inventario\ajustes.php on line 43.
+ 1 APPPATH\Views\admin\inventario\ajustes.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\inventario\\ajustes.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\ajustes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/ajustes', [], true)
+ 5 APPPATH\Controllers\Admin.php(58): view('admin/inventario/ajustes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->ajustesProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 00:34:48 --> Array to string conversion
+in APPPATH\Views\admin\inventario\ajustes.php on line 42.
+ 1 APPPATH\Views\admin\inventario\ajustes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\inventario\\ajustes.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\ajustes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/ajustes', [], true)
+ 5 APPPATH\Controllers\Admin.php(58): view('admin/inventario/ajustes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->ajustesProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 00:37:11 --> Attempt to read property "productos_visible" on array
+in APPPATH\Views\admin\inventario\ajustes.php on line 42.
+ 1 APPPATH\Views\admin\inventario\ajustes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "productos_visible" on array', 'APPPATH\\Views\\admin\\inventario\\ajustes.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\ajustes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/ajustes', [], true)
+ 5 APPPATH\Controllers\Admin.php(58): view('admin/inventario/ajustes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->ajustesProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 00:37:25 --> Attempt to read property "productos_visible" on array
+in APPPATH\Views\admin\inventario\ajustes.php on line 42.
+ 1 APPPATH\Views\admin\inventario\ajustes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "productos_visible" on array', 'APPPATH\\Views\\admin\\inventario\\ajustes.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\ajustes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/ajustes', [], true)
+ 5 APPPATH\Controllers\Admin.php(58): view('admin/inventario/ajustes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->ajustesProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 00:37:34 --> Undefined variable $productos_visible
+in APPPATH\Views\admin\inventario\ajustes.php on line 42.
+ 1 APPPATH\Views\admin\inventario\ajustes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos_visible', 'APPPATH\\Views\\admin\\inventario\\ajustes.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\inventario\\ajustes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/inventario/ajustes', [], true)
+ 5 APPPATH\Controllers\Admin.php(58): view('admin/inventario/ajustes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->ajustesProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 00:56:19 --> Undefined variable $estadoVisible
+in APPPATH\Views\ecomerce\productos.php on line 83.
+ 1 APPPATH\Views\ecomerce\productos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estadoVisible', 'APPPATH\\Views\\ecomerce\\productos.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/productos', [], true)
+ 5 APPPATH\Controllers\Ecomerce.php(75): view('ecomerce/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

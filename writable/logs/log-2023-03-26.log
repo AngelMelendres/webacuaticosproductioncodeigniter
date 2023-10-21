@@ -1,0 +1,192 @@
+CRITICAL - 2023-03-26 02:19:18 --> Call to a member function paginate() on null
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:25:21 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:25:25 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:25:32 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:26:08 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:26:29 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:38:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:43:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:43:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:43:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:43:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:44:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Ecomerce.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:45:39 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:45:41 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:45:41 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:45:54 --> Call to undefined method App\Models\ProductoModel::getAllProductsWithCategory
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ecomerce.php(28): CodeIgniter\Model->__call('getAllProductsWithCategory', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-26 02:48:04 --> mysqli_sql_exception: Table 'acuaticos.categorias' doesn't exist in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(25): CodeIgniter\BaseModel->paginate(15)
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-26 02:48:04 --> Table 'acuaticos.categorias' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `producto`
+JOIN `categorias` ON `categorias`.`id` = `productos`.`categoria_id`', [], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Ecomerce.php(25): CodeIgniter\BaseModel->paginate(15)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-26 02:48:44 --> mysqli_sql_exception: Unknown column 'productos.categoria' in 'on clause' in C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\acuaticostoscanini\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\acuaticostoscanini\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\acuaticostoscanini\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\acuaticostoscanini\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\acuaticostoscanini\app\Controllers\Ecomerce.php(25): CodeIgniter\BaseModel->paginate(15)
+#7 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+#8 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+#9 C:\xampp\htdocs\acuaticostoscanini\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\acuaticostoscanini\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-03-26 02:48:44 --> Unknown column 'productos.categoria' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `producto`
+JOIN `categoria` ON `categoria`.`id_categoria` = `productos`.`categoria`', [], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Ecomerce.php(25): CodeIgniter\BaseModel->paginate(15)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 02:49:46 --> Invalid argument supplied for foreach()
+in APPPATH\Views\ecomerce\productos.php on line 56.
+ 1 APPPATH\Views\ecomerce\productos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\ecomerce\\productos.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ecomerce\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ecomerce/productos', [], true)
+ 5 APPPATH\Controllers\Ecomerce.php(37): view('ecomerce/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 23:26:36 --> Call to a member function setPath() on null
+in APPPATH\Controllers\Ecomerce.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 23:26:39 --> Call to a member function setPath() on null
+in APPPATH\Controllers\Ecomerce.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 23:26:40 --> Call to a member function setPath() on null
+in APPPATH\Controllers\Ecomerce.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 23:27:05 --> Call to a member function setPath() on null
+in APPPATH\Controllers\Ecomerce.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ecomerce->productos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ecomerce))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
