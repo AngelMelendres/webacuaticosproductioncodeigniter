@@ -1,54 +1,51 @@
-# CodeIgniter 4 Framework
+# Proyecto para AcuaticosToscanini SA Ltda
 
-## What is CodeIgniter?
+Este proyecto fue desarrollado para la empresa AcuaticosToscanini SA Ltda y puesto en producción por Angel Fabian Melendres.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Descripción
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Este repositorio contiene el código fuente y los recursos para el proyecto desarrollado para AcuaticosToscanini SA Ltda. El proyecto tiene como objetivo [describe el propósito o la finalidad del proyecto].
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Características
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+- [Enumera las características clave del proyecto]
+- [Incluye detalles relevantes sobre la tecnología utilizada]
+- [Describe cualquier funcionalidad especial o aspectos destacados del proyecto]
 
-## Important Change with index.php
+## Capturas de pantalla
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+[Si tienes capturas de pantalla del proyecto, puedes incluirlas aquí]
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## Instalación
 
-**Please** read the user guide for a better explanation of how CI4 works!
+[Proporciona instrucciones claras sobre cómo instalar y configurar el proyecto en un entorno local si es relevante]
 
-## Repository Management
+## Uso
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+[Explica cómo usar el proyecto, incluyendo ejemplos si es necesario]
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+## Contribución
 
-## Contributing
+Agradecemos las contribuciones a este proyecto. Si deseas contribuir, sigue estos pasos:
 
-We welcome contributions from the community.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu contribución: `git checkout -b tu-rama-de-contribucion`.
+3. Realiza tus cambios y realiza un commit: `git commit -m 'Descripción de tus cambios'`.
+4. Haz push a tu rama: `git push origin tu-rama-de-contribucion`.
+5. Crea una solicitud de extracción (Pull Request) en GitHub.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## Licencia
 
-## Server Requirements
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+## Contacto
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+- Autor: Angel Fabian Melendres
+- Email: [fabian_melendres@hotmail.com]
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## Agradecimientos
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+---
+
+**Nota:** 
